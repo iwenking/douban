@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "seracebar": "/components/seracebar/seracebar",
+    "itemview": "/components/itemview/itemview"
+  }
+}

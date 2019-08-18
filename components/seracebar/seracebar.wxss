@@ -1,0 +1,27 @@
+.seracherber{
+  background-color: #41be57;
+  padding: 20rpx;
+}
+.searchnav{
+  width: 100%;
+  height: 60rpx;
+  background-color: #fff;
+  border-radius:10rpx;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACGElEQVRYR8WXjTEsQRRGjwgeEXgi8ESACB4RIAJksBsBIiAEIkAEiAAR8CKgTlXfqqmx/TN2zOuqqd2qnb597ne/vt27QnmsAn+BHeB3+nTGS3rugBvgsRIn+/NK5hcXPgZOAL8/Ade9dwXaA34BgszT5yCWRQB/gNu0sEGvUra5wELMgE3gHDgdQtAHOATOgNeUnVK3DtVyrkrtt07qAkTm1tRg761BOu/pFdVTtaOW+QFgnZ9T5oIsM1TxMqnQ982XuAFgDc1aY30n835gF94GNmrxBIjsL5KZlsk+5pqIimpIjVnchiHZWo12IJkqrANbNQANY92XrX1/nabELIFNxEcfjDlM6AHYLTUoAT5SFxsbwGSMbU/I7oYpAIpGFMBupw/GVsDd9dZSAusvhKYZc0RXdBdkT0sVMHNPPrfhmMP9b1IqUewDTW79BpmN6L6mbLRiy6Bj3TJjjOgBtuLiiRoAUa9q62ygi9Zu9t4ViqN7HFszvVBsHJV4Lu5xbOZNB1v/QhKnmEq4NYeMWFxP6XoTqZ6si65kLnyQALyStdyKfF8Fo694PWuCyF1KrZ0gGlNVfKxpNyPPe72j4ZTbm1T0Ek3dBJEDUHolNaCPwRaNfwnOXtJVyrlNECWA7oJm6GNgP5VXNUr/B5ogWgGGmLH7bhXipwGilNlyTAFQhJgKIAsxJcBCiKkB+hDz/wEQEP4Rmn0CSdGEsbM9WCQAAAAASUVORK5CYII=");
+  background-position: 10rpx center;
+  background-repeat:no-repeat; 
+  background-size: 5%;
+}
+.serach_inpur{
+  width: 100%;
+  height: 60rpx;
+  background-color: #fff;
+  border-radius:10rpx;
+  padding: 10rpx;
+  box-sizing: border-box;
+}
+.input{
+  min-height: 40rpx;
+  height: 40rpx;
+  font-size: 12px;
+}

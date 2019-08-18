@@ -1,0 +1,55 @@
+<seracebar isnavigator="{{true}}"></seracebar>
+<!-- 电影 -->
+<view class="modle_group">
+  <view class="modle_title">
+    <view class="modle-movetitle">电影</view>
+    <navigator class="more">更多</navigator>
+  </view>
+  <scroll-view class="module_scroll" scroll-x="{{true}}">
+    <navigator class="item_navigator" wx:for="{{movies}}" wx:key="{{item.title}}">
+      <view class="item-group">
+        <view class="item-img">
+          <image class="thumbnail-img" src="{{item.cover.url}}"></image>
+        </view>
+        <view class="item-title">{{item.title}}</view>
+        <stars rate="{{item.rating.value}}"></stars>
+      </view>
+    </navigator>
+  </scroll-view>
+</view>
+<!-- 电视剧 -->
+<view class="modle_group">
+  <view class="modle_title">
+    <view class="modle-movetitle">电视剧</view>
+    <navigator class="more">更多</navigator>
+  </view>
+  <scroll-view class="module_scroll" scroll-x="{{true}}">
+    <navigator class="item_navigator" wx:for="{{tvs}}" wx:key="{{item.title}}">
+      <view class="item-group">
+        <view class="item-img">
+          <image class="thumbnail-img" src="{{item.cover.url}}"></image>
+        </view>
+        <view class="item-title">{{item.title}}</view>
+        <stars rate="{{item.rating.value}}"></stars>
+      </view>
+    </navigator>
+  </scroll-view>
+</view>
+<!-- 综艺 -->
+<view class="modle_group">
+  <view class="modle_title">
+    <view class="modle-movetitle">综艺</view>
+    <navigator class="more">更多</navigator>
+  </view>
+  <scroll-view class="module_scroll" scroll-x="{{true}}">
+    <navigator class="item_navigator" wx:for="{{shows}}" wx:key="{{item.title}}">
+      <view class="item-group">
+        <view class="item-img">
+          <image class="thumbnail-img" src="{{item.cover.url}}"></image>
+        </view>
+        <view class="item-title">{{item.title}}</view>
+        <stars rate="{{item.rating.value}}"></stars>
+      </view>
+    </navigator>
+  </scroll-view>
+</view>

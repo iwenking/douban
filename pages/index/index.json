@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "seracebar":"/components/seracebar/seracebar",
+    "stars":"/components/stars/stars"
+  }
+}

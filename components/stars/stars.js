@@ -9,6 +9,22 @@ Component({
       type: Number,
       value: 0
     },
+    starsize:{
+      type:Number,
+      value:20  //rpx
+    },
+    fontsize:{
+      type:Number,
+      value:20 //rpx
+    },
+    fontcolor:{
+      type:String,
+      value:"#ccc"
+    },
+    istext:{
+      type:Boolean,
+      value:true
+    }
   },
   /**
    * 组件的初始数据

@@ -1,0 +1,57 @@
+<view class="item-header">
+  <view class="item-title"> 海王 Aquaman(2018)</view>
+  <view class="item-detail">
+    <view class="left-detail">
+      <view class="item-rate">
+        <stars rate="8" starsize="30" fontsize="30" fontcolor="#595959"></stars>
+        <text class="comment-person">115151</text>
+      </view>
+      <view class="item-sub-rate">
+        <view class="item-type">
+          143分钟 动作/奇幻/冒险
+        </view>
+        <view class="item-show">
+          2018-12-04(中国大陆)上映 美国
+        </view>
+        <view class="item-actors">
+          吕艳婷 / 囧森瑟夫 / 瀚墨 / 陈浩 / 绿绮 /
+        </view>
+      </view>
+    </view>
+    <view class="right-detail">
+      <image src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2563780504.webp"></image>
+    </view>
+  </view>
+</view>
+<view class="item-tags">
+  <view class="item-tags-title">豆瓣成员常用标签</view>
+  <view class="item-tags-list">
+    <text>哪吒</text>
+    <text>动画</text>
+    <text>中国大陆</text>
+    <text>成长</text>
+    <text>2019</text>
+    <text>亲情</text>
+    <text>搞笑</text>
+  </view>
+</view>
+
+<view class="comment-list-group">
+  <view class="comment-title">短评(2012313)</view>
+  <view class="comment-group">
+    <view class="left-comment">
+      <image class="avatar" src="https://img3.doubanio.com/icon/u168686680-1.jpg"></image>
+    </view>
+    <view class="right-comment">
+      <view class="username-rate">
+        <text class="username">偉</text>
+        <stars rate="5" starsize="30" fontsize="30" fontcolor="#595959" istext="{{false}}"></stars>
+      </view>
+      <view class="release-time">2018-12-13</view>
+      <view class="content">
+        电影里，哪吒魔童的形象，正是来源于此，“头戴金轮”不言而喻，只是电影中为了避开紧箍咒，将其变成了项圈，眉心中的印记，在哪吒变身后也有“三头九眼”的象征。</view>
+    </view>
+  </view>
+</view>
+
+<navigator class="more-comment">插件更多短评</navigator>

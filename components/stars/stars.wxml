@@ -1,6 +1,6 @@
 <view class="rate-group">
-  <image wx:for="{{lights}}" wx:key="*this" src="/images/start_full.png"></image>
-  <image wx:for="{{halfs}}" wx:key="*this" src="/images/start_pull.png"></image>
-  <image wx:for="{{grays}}" wx:key="*this" src="/images/start_empt.png"></image>
-  <text>{{ratetext}}</text>
+  <image style="width:{{starsize}}rpx;height:{{starsize}}rpx;" wx:for="{{lights}}" wx:key="*this" src="/images/start_full.png"></image>
+  <image style="width:{{starsize}}rpx;height:{{starsize}}rpx;" wx:for="{{halfs}}" wx:key="*this" src="/images/start_pull.png"></image>
+  <image style="width:{{starsize}}rpx;height:{{starsize}}rpx;" wx:for="{{grays}}" wx:key="*this" src="/images/start_empt.png"></image>
+  <text wx:if="{{istext}}" style="font-size:{{fontsize}}rpx;color:{{fontcolor}}">{{ratetext}}</text>
 </view>

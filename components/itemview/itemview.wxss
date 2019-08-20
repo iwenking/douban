@@ -24,4 +24,5 @@
   margin-top: 20rpx;
   text-overflow: ellipsis;
   overflow: hidden;
+  margin-bottom: 20rpx;
 }

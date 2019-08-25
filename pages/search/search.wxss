@@ -1,1 +1,46 @@
-/* pages/search/search.wxss */
+.item-list-group{
+  padding: 10rpx 20rpx;
+}
+.item-list-group .item-group{
+  padding: 10rpx 0;
+  border-bottom:1px solid #e4e4e4;
+   display: flex;
+}
+.item-group .thumbnail{
+  width: 80rpx;
+  height: 100rpx;
+  margin-right: 20rpx;
+}
+.item-group .info-group{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.info-group .title{
+  font-size: 32rpx;
+}
+.info-group .rate-year{
+  font-size: 28rpx;
+  color: #7b7b7b;
+}
+.histroy-list-group{
+  padding: 10rpx 20rpx;
+}
+.histroy-list-group .histroy-title{
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx 0;
+  background-color: #f9f9f9;
+  font-size: 28rpx;
+  color: #9e9e9e;
+}
+.histroy-list-group .histroy-group{
+  font-size: 32rpx;
+  padding: 20rpx 0;
+  border-bottom:1px solid #e4e4e4;
+}
+
+
+
+

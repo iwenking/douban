@@ -1,16 +1,12 @@
-// components/itemview/itemview.js
+// components/onecomment/onecomment.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-    item:{
-      type:Object,
-      value:{}
-    },
-    itemurl:{
-      type:String,
-      value:""
+    item: {
+      type: Object,
+      value: {}
     }
   },
 

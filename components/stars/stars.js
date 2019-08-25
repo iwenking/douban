@@ -7,23 +7,26 @@ Component({
   properties: {
     rate: {
       type: Number,
-      value: 0
+      value: 0,
+      observer(newVal, oldVal, changedPath) {
+        this.updateRate()
+      }
     },
-    starsize:{
-      type:Number,
-      value:20  //rpx
+    starsize: {
+      type: Number,
+      value: 20 //rpx
     },
-    fontsize:{
-      type:Number,
-      value:20 //rpx
+    fontsize: {
+      type: Number,
+      value: 20 //rpx
     },
-    fontcolor:{
-      type:String,
-      value:"#ccc"
+    fontcolor: {
+      type: String,
+      value: "#ccc"
     },
-    istext:{
-      type:Boolean,
-      value:true
+    istext: {
+      type: Boolean,
+      value: true
     }
   },
   /**
@@ -36,10 +39,7 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
-  },
-  lifetimes: {
-    attached: function() {
+    updateRate:function(){
       var that = this;
       var rate = that.properties.rate;
       var intRate = parseInt(rate);
@@ -66,6 +66,11 @@ Component({
         grays: grays,
         ratetext: ratetext
       })
+    }
+  },
+  lifetimes: {
+    attached: function() {
+      this.updateRate()
     }
   }
 })

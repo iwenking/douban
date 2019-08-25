@@ -1,2 +1,19 @@
-<seracebar></seracebar>
-<view>搜索</view> 
+<seracebar bindsearchinput="onSearchInputEvent"></seracebar>
+
+<view class="histroy-list-group" wx:if="{{histories && !subjects}}">
+  <view class="histroy-title">
+    <view class="title">历史记录</view>
+    <view class="clear" bindtap="onClearEvent">清除</view>
+  </view>
+  <navigator class="histroy-group" wx:for="{{histories}}" wx:key="{{item.id}}" url="/pages/detail/detail?type=movie&id={{item.id}}">{{item.title}}</navigator>
+</view>
+
+<view class="item-list-group">
+  <view class="item-group" wx:for="{{subjects}}" wx:key="{{item.key}}" bindtap="onItemTapEvent" data-id="{{item.id}}" data-title="{{item.title}}">
+    <image class="thumbnail" src="{{item.pic.normal}}"></image>
+    <view class="info-group">
+      <view class="title">{{item.title}}</view>
+      <view class="rate-year">{{item.rating.value}}分/{{item.year}}</view>
+    </view>
+  </view>
+</view>

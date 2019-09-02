@@ -3,7 +3,7 @@
 
 ​                                                                   主要展示部分
 
-![](E:\Git\豆瓣\douban\img\home.png)
+![](https://github.com/iwenking/douban/blob/master/img/home.png?raw=true)
 
 ​                                                                           电影部分
 
